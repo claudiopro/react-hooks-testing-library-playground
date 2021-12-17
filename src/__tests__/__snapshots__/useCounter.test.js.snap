@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+Object {
+  "all": Array [
+    Object {
+      "count": 0,
+      "increment": [Function],
+    },
+  ],
+  "current": Object {
+    "count": 0,
+    "increment": [Function],
+  },
+  "error": undefined,
+}
+`;
+
+exports[`should match snapshot 2`] = `
+Object {
+  "all": Array [
+    Object {
+      "count": 0,
+      "increment": [Function],
+    },
+    Object {
+      "count": 1,
+      "increment": [Function],
+    },
+  ],
+  "current": Object {
+    "count": 1,
+    "increment": [Function],
+  },
+  "error": undefined,
+}
+`;
